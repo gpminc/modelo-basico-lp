@@ -1,0 +1,665 @@
+@font-face{
+    font-family: "Arboria";
+    src: url(./Fonte/Arboria-Book.ttf);
+}
+
+*{
+    margin: 0;
+   font-family: Arboria;
+}
+
+body {
+    font-family: Arboria;
+    height: 100vh;
+    margin: 0;
+}
+
+#primeiro-bloco{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(./imagens_modelo/3334896.jpg);
+    background-size: 122%;
+    background-position: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}  
+
+.div-conteudo{
+    position: relative;
+    z-index: 1;
+    color: white;
+    height: auto;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin-left: 5%;
+}
+
+.div-conteudo h2{
+    font-size: 2.5rem;
+}
+
+.div-conteudo p{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.div-conteudo button{
+    background-color: white;
+    border: 0px;
+    height: 5vh;
+    border-radius: 8px;
+    width: 53%;
+    font-size: 0.8rem;
+}
+
+.div-conteudo button:hover{
+    background-color: white;
+    color: #23254D;
+}
+
+#div-logo{
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+#img-fundo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+#logo{
+    width: 30%;
+}
+
+.div-btn-bloco1{
+    width: 100%;
+    margin-top: 5%;
+}
+
+#segundo-bloco{
+    display: flex;
+    flex-direction: row;
+}
+
+#segmento1{
+    width: 50%;
+    padding: 6.5%;
+}
+
+#segmento1 p{
+    color: #666666;
+}
+#segmento2{
+    width: 50%;
+    padding: 6.5%;
+}
+
+#segmento2 img{
+    width: 115%;
+}
+
+
+#div-segmento-img{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    align-items: center;
+    gap: 10%;
+    margin-left: 8%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#div-h3{
+    margin-left: 8%;
+    font-size: 1.2rem;
+}
+
+.formatacao-div{
+    width: 100%;
+    gap: 80%;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formatacao-div div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+}
+
+.formatacao-div img{
+    width: 30%;
+}
+
+#segmento1 h2{
+    font-size: 1.8rem;
+    margin-bottom: 5%;
+    margin-left: 8%;
+}
+
+#div-titulo p{
+    font-size: 1rem;
+    margin-bottom: 5%;
+    margin-left: 8%;
+}
+
+.div-btn-bloco2{
+    width: 100%;
+
+}
+
+.div-btn-bloco2 button{
+    background-color: #23254D;
+    color: white;
+    border: 0px;
+    height: 5vh;
+    border-radius: 8px;
+    width: 56%;
+    margin-left: 8%;
+    margin-top: 5%;
+    font-size: 0.8rem;
+}
+
+.div-btn-bloco2 button:hover{
+    background-color: #0c0e2e;
+    
+}
+
+#terceiro-bloco {
+    background: rgb(140,58,180);
+    background: linear-gradient(90deg, rgba(140,58,180,1) 0%, rgba(9,47,128,1) 50%, rgba(33,39,214,1) 100%);
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#div-bloco1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#div-informacoes{
+    width: 72%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 10%;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+
+#div-informacoes p{
+    font-size: 18px;
+}
+#div-informacoes ul{
+    font-size: 18px;
+}
+#div-bloco2{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#div-bloco2 img{
+    width: 65%;
+}
+
+.div-btn-bloco3{
+    width: 64%;
+}
+
+.div-btn-bloco3 button{
+    background-color: #333CDF;
+    color: white;
+    border: 0px;
+    height: 5vh;
+    border-radius: 8px;
+    width: 65%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-size: 0.8rem;
+}
+
+.div-btn-bloco3 button:hover{
+    background-color: #0c0e2e;
+}
+
+#div-footer1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9%;
+}
+#div-footer1 img{
+    width: 10%;
+}
+#div-footer1 p{
+    color: #666666;
+}
+
+
+#div-footer2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 37px;
+    padding-bottom: 37px;
+}
+
+#div-footer-info-contato{
+    width: 70%;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+}
+
+#div-footer-info-contato p {
+    font-size: 14px;
+}
+
+.div-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    width: 100%;
+}
+
+.div-row div{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row; 
+    width: 80%;
+    gap: 10px;
+}
+.div-row a{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    width: 30%;
+    gap: 10px;
+}
+
+#img-local{
+    width: 20%;
+}
+#insta{
+    width: 20%;
+}
+#face{
+    width: 20%;
+}
+#email{
+    width: 20%;
+}
+
+#div-email{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    width: 30%;
+    gap: 10px;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Estilos para telas menores (móveis) */
+@media screen and (max-width: 768px) {
+    body, html{
+        overflow-x: hidden;   
+    }
+
+    #img-fundo{
+        width: 150%;
+        position: absolute;
+        top: 0;
+        left: -40%;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    .div-conteudo {
+        width: 80%; 
+        margin: 0;
+        padding: 0;
+    }
+    .div-conteudo h2{
+        font-size: 20px;
+    }
+    .div-conteudo p{
+        font-size: 0.7rem;
+    }
+
+    #logo{
+        width: 40%;
+    }
+
+    .div-conteudo button{
+        background-color: #23254D;
+        color: white;
+        border: 0px;
+        height: 3vh;
+        border-radius: 8px;
+        width: 50%;
+        font-size: 0.4rem;
+    }
+
+    #primeiro-bloco{
+        width: 100%;
+        height: 50vh;
+        background-image: url(./imagens_modelo/3334896.jpg);
+        background-size: cover;
+        background-position: 0;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }  
+    
+    #segmento1{
+        width: 100%;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        justify-content: left;
+        padding-top: 5%;
+        
+    }
+    /* #segmento1{
+        width: 20%;
+        height: 85vh;
+        padding: 6.5%;
+        border: 1px solid;
+    } */
+    
+    #segmento1 h2{
+        font-size: 1.5rem;
+        margin-bottom: 5%;
+        margin: 0;
+    }
+
+    #div-titulo{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        
+    }
+
+    #div-titulo p{
+        font-size: 0.7rem;
+        margin: 0;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    #segundo-bloco{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #div-segmento-img{
+        display: flex;
+        flex-direction: row;
+        width: 77%;
+        align-items: center;
+        gap: 5%;
+        margin: 0;
+        margin-top: 5%;
+    }
+    /* #div-segmento-img{
+        display: flex;
+        flex-direction: row;
+        width: 92%;
+        align-items: center;
+        height: 35vh; 
+        gap: 5%;
+        margin-left: 8%;
+    } */
+    #div-h3{
+        width: 80%;
+        margin: 0;
+        font-size: 1rem;
+        display: flex;
+        justify-content: left;
+    }
+    /* #div-h3{
+        margin-left: 8%;
+        font-size: 13px;
+    } */
+    .formatacao-div{
+        width: 50%;
+        gap: 80%;
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .formatacao-div img{
+        width: 30%;
+    }
+    /* .formatacao-div img{
+        width: 40%;
+    } */
+    .formatacao-div p{
+        font-size: 0.6rem;
+    }
+    /* .formatacao-div p{
+        font-size: 6px;
+    } */
+    .formatacao-div div{
+        height: 5vh;
+        width: 100%;
+    }
+    /* .formatacao-div div{
+        height: 4vh;
+    } */
+
+    .div-btn-bloco2{
+        width: 80%;
+    }
+
+    .div-btn-bloco2 button{
+        background-color: #23254D;
+        color: white;
+        border: 0px;
+        height: 3vh;
+        border-radius: 8px;
+        width: 50%;
+        margin: 0;
+        margin-top: 8%;
+        font-size: 0.4rem;
+    }
+
+    #segmento2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+    #segmento2 img{
+        width: 75%;
+    }
+    #segmento2 div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #div-bloco1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url(./imagens_modelo/ilustracao-de-galeria-icone.png);
+        background-repeat: no-repeat;
+        background-position: 100%;
+        background-size: 50%;
+    }
+    
+    #div-informacoes{
+        width: 80%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        gap: 10%;
+        margin: 0;
+    }
+
+    #div-informacoes h1{
+        font-size: 1rem;
+    }
+    
+    #div-informacoes p{
+        font-size: 0.65rem;
+        
+    }
+    #div-informacoes ul{
+        font-size: 0.6rem;
+    }
+
+    #terceiro-bloco{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    #div-bloco2{
+        display: none;
+        width: 0%;
+    }
+    
+    #div-bloco2 img{
+        width: 100%;
+    }
+    
+    .div-btn-bloco3{
+        width: 80%;
+    }
+
+    .div-btn-bloco3 button{
+        background-color: #333CDF;
+        color: white;
+        border: 0px;
+        height: 3vh;
+        border-radius: 8px;
+        width: 50%;
+        font-size: 0.4rem;
+    }
+
+    #div-footer1{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #div-footer2{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    
+
+    #div-footer-info-contato {
+        width: 90%;
+    }
+
+    #div-footer1{
+        width: 50%;
+    }
+
+    #div-footer1 img{
+        width: 20%;
+    }
+
+    #div-footer1 p{
+        font-size: 1.5vw;
+    }
+
+    #div-footer2 img{
+        width: 14px;
+        height: 14px;
+    }
+
+    #div-footer-info-contato p{
+        font-size: 1.5vw;
+    }
+
+    .div-row{
+        height: 3.5vh;
+    }
+   
+    .div-row div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        gap: 1px;
+    }
+  
+}
